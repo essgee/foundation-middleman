@@ -19,7 +19,6 @@ ap asset_paths
 activate   :directory_indexes
 
 configure :development do
-  # set      :debug_assets, true
   activate :livereload
 end
 
