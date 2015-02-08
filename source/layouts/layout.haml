@@ -9,7 +9,8 @@
     -# Use title if it's in the page YAML frontmatter
     %title= current_page.data.title
 
-    = stylesheet_link_tag "app/main"
+    = javascript_include_tag  "app/body"
+    = stylesheet_link_tag     "app/main"
 
 
   %body
